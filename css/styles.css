@@ -5857,6 +5857,7 @@ a.close.disabled {
 .slide-one, .slide-two, .slide-three {
   margin-top: 13em;
   text-align: center;
+  background-color: rgba(0,0,0,0.5);
 }
 .slide-one h2, .slide-two h2, .slide-three h2 {
   padding-bottom: .3em;
