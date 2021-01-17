@@ -5893,13 +5893,6 @@ a.close.disabled {
     padding-bottom: .2em;
   }
 }
-/*Offers*/
-.offer h2 {
-  padding:5px 50px;
-}
-.offer p {
-
-}
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
