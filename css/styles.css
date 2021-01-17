@@ -5829,9 +5829,76 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
+  margin-top:74px;
+  color: white;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+  height:20em;
+}
+.carousel-item-one {
+  background-image: url(../assets/img/football.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35em;
+}
+.carousel-item-two {
+  background-image: url(../assets/img/avengers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35em;
+}
+.carousel-item-three {
+  background-image: url(../assets/img/vikings1.png);
+  background-size: cover;
+  height: 35em;
+  background-repeat: no-repeat;
+}
+.slide-one, .slide-two, .slide-three {
+  margin-top: 13em;
+  text-align: center;
+}
+.slide-one h2, .slide-two h2, .slide-three h2 {
+  padding-bottom: .3em;
+}
+@media (min-height: 767.98px) {
+  .carousel-item-one {
+    /*background-size: contain;*/
+    height:25em;
+  }
+  .carousel-item-two {
+    /*background-size: contain;*/
+    height:25em;
+  }
+  .carousel-item-three {
+    /*background-size: contain;*/
+    height:25em;
+  }
+  .slide-one {
+  margin-top: 2em;
+  }
+  .slide-one h2 {
+    padding-bottom: .2em;
+  }
+  .slide-two {
+  margin-top: 2em;
+  }
+  .slide-two h2 {
+    padding-bottom: .2em;
+  }
+  .slide-three {
+    margin-top: 2em;
+  }
+  .slide-three h2 {
+    padding-bottom: .2em;
+  }
+}
+/*Offers*/
+.offer h2 {
+  padding:5px 50px;
+}
+.offer p {
+
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -10064,10 +10131,10 @@ h3 {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: white;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: lightgrey;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10113,6 +10180,9 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image: url(../assets/img/vikings2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10137,49 +10207,6 @@ h3 {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
-.portfolio .portfolio-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.portfolio .portfolio-item .portfolio-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
-}
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-}
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
-}
-
-.portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
-.portfolio-modal .close {
-  position: absolute;
-  z-index: 1;
-  right: 1.5rem;
-  top: 1rem;
-  font-size: 3rem;
-  line-height: 3rem;
-  color: #1abc9c;
-  opacity: 1;
 }
 
 .floating-label-form-group {
@@ -10231,10 +10258,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #343a40;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #fff;
 }
