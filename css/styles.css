@@ -10251,11 +10251,17 @@ form .row:first-child .floating-label-form-group {
   border: 2px solid #3a60a2;
   border-radius: 5px;
 }
+.price-one div ul li {
+  color: #3a60a2!important;
+  font-weight: 700!important;
+}
 .price-two div ul {
+  color: #652f8d;
   border: 2px solid #652f8d;
   border-radius: 5px;
 }
 .price-three div ul {
+  color: #ec5929;
   border: 2px solid #ec5929;
   border-radius: 5px;
 }
