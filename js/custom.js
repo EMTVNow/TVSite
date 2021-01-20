@@ -1,9 +1,9 @@
-$('#mainNav').hide();
+$('#mainNav').css('background-color','transparent');
 
 window.addEventListener('scroll', function() {
     if(window.scrollY == 0) {
-        $('#mainNav').fadeOut(200);
+        $('#mainNav').css('background-color', 'transparent');
     }else {
-        $('#mainNav').fadeIn(200);
+        $('#mainNav').css('background-color', '#121238');
     }
 })
