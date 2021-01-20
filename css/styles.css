@@ -3954,7 +3954,6 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -5829,7 +5828,7 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  margin-top:85px;
+  /* margin-top:85px; */
   color: white;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -5840,18 +5839,18 @@ a.close.disabled {
   background-image: url(../assets/img/football.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35em;
+  height: 40em;
 }
 .carousel-item-two {
   background-image: url(../assets/img/avengers.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35em;
+  height: 40em;
 }
 .carousel-item-three {
   background-image: url(../assets/img/vikings1.png);
   background-size: cover;
-  height: 35em;
+  height: 40em;
   background-repeat: no-repeat;
 }
 .slide-one, .slide-two, .slide-three {
@@ -10226,8 +10225,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #121238;
   color: #fff;
 }
@@ -10251,10 +10250,6 @@ form .row:first-child .floating-label-form-group {
   border: 2px solid #3a60a2;
   border-radius: 5px;
 }
-.price-one div ul li {
-  color: #3a60a2!important;
-  font-weight: 700!important;
-}
 .price-two div ul {
   color: #652f8d;
   border: 2px solid #652f8d;
@@ -10268,6 +10263,7 @@ form .row:first-child .floating-label-form-group {
 .price-one div ul li, .price-two div ul li, .price-three div ul li {
   padding-top: .3em;
   padding-bottom: .3em;
+  font-weight: 700;
 }
 .price-two div h4 {
   font-size: 1.4em;
@@ -10321,4 +10317,20 @@ ul {
 
 .bg-stats {
   background-color: #121238
+}
+
+.fw {
+  font-weight: 700;
+}
+
+.contact {
+  margin-top: 8em; 
+  margin-right: 0px!important;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+  font-weight: 700;
+}
+
+.contact a:hover {
+  text-decoration: none;;
 }
